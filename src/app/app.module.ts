@@ -10,6 +10,13 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { AboutUsViewPage } from '../pages/about-us-view/about-us-view';
+import { RoomsViewPage } from '../pages/rooms-view/rooms-view';
+import { ChaletViewPage } from '../pages/chalet-view/chalet-view';
+import { AuthProvider } from '../providers/auth/auth';
+import { ActivityViewPage } from '../pages/activity-view/activity-view';
+import { ConfirmationPage } from '../pages/confirmation/confirmation';
+import { ReservationsPage } from '../pages/reservations/reservations';
 
 @NgModule({
   declarations: [
@@ -17,7 +24,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    AboutUsViewPage,
+    RoomsViewPage,
+    ChaletViewPage,
+    ActivityViewPage,
+    ConfirmationPage,
+    ReservationsPage
   ],
   imports: [
     BrowserModule,
@@ -29,12 +42,19 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    AboutUsViewPage,
+    RoomsViewPage,
+    ChaletViewPage,
+    ActivityViewPage,
+    ConfirmationPage,
+    ReservationsPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    AuthProvider
   ]
 })
 export class AppModule {}

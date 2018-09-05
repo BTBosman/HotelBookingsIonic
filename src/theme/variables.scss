@@ -22,7 +22,11 @@ $app-direction: ltr;
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
 
+$toolbar-md-active-color:                 red;
+$toolbar-md-inactive-color:               black;
+$segment-button-md-text-color-activated:  rgb(243, 224, 224);
 
+$tabbar-md-background:                    rgba(0, 0, 0, 0.083);
 
 
 // Named Color Variables
@@ -38,7 +42,13 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  custom:     lightslategrey,
+  activity:   rgb(209, 17, 177),
+  chalet:     rgb(187, 151, 6),
+  rooms:      rgb(4, 12, 225),
+  home:       rgb(20, 128, 186),
+  custom2:    rgba(190, 204, 204, 0.282)
 );
 
 

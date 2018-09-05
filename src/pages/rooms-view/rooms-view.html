@@ -1,0 +1,154 @@
+<!--
+  Generated template for the RoomsViewPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="rooms" style="opacity: 0.8;">
+    <ion-title>SUITES</ion-title>
+    <ion-buttons end>
+        <button ion-button icon-only (click)="dismiss()">
+          <ion-icon name="home"></ion-icon>
+          </button>
+        </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card class="cards">
+    <ion-slides class="imgs" pager>
+      <ion-slide>
+        <img  src="assets/imgs/doubleGuest.jpg">
+      </ion-slide>
+      <ion-slide>
+        <img  src="assets/imgs/hotelBath2.jpeg">
+      </ion-slide>
+      <ion-slide>
+        <img  src="assets/imgs/chalet2Single.jpg">
+      </ion-slide>
+    </ion-slides>
+    <h2>Family Suite</h2>
+    <h3>R2500</h3>
+    <p>family suite with 2 bedrooms,which contain 1 doubleBed and 2 singles a very spacious bathroom.All our rooms come with DSTV and wi-fi.<br>
+      <ion-icon style="zoom:1.0;width:15%;"class="icons" ios="ios-game-controller-a" md="md-game-controller-a"></ion-icon>
+      <ion-icon style="zoom:1.0;width:15%;" class="icons" ios="ios-wifi" md="md-wifi"></ion-icon>
+      <ion-icon style="zoom:1.0;width:15%;" ios="ios-desktop" md="md-desktop"></ion-icon>
+      <ion-icon style="zoom:1.0;width:15%;" ios="ios-restaurant" md="md-restaurant"></ion-icon><br>
+      <button ion-button block clear color="primary" (click)="book()">book</button>
+    </p>
+  </ion-card>
+  <ion-card class="cards">
+      <ion-slides class="imgs" pager>
+
+          <ion-slide>
+             <img  src="assets/imgs/single.jpg">
+          </ion-slide>
+        
+          <ion-slide>
+             <img  src="assets/imgs/singleDinning.jpg">
+          </ion-slide>
+        
+          <ion-slide>
+             <img  src="assets/imgs/hotelBath.jpg">
+          </ion-slide>
+        
+        </ion-slides>
+     
+      <h2>Single</h2>
+      <h3>R900</h3>
+      <p>Single bed,spacious living area and loveley bathroom,comes with kitchen for self catering All our rooms come with DSTV and wi-fi.<br>
+        <ion-icon style="zoom:1.0;width:15%;"class="icons" ios="ios-game-controller-a" md="md-game-controller-a"></ion-icon>
+        <ion-icon style="zoom:1.0;width:15%;" class="icons" ios="ios-wifi" md="md-wifi"></ion-icon>
+        <ion-icon style="zoom:1.0;width:15%;" ios="ios-desktop" md="md-desktop"></ion-icon>
+        <ion-icon style="zoom:1.0;width:15%;" ios="ios-restaurant" md="md-restaurant"></ion-icon><br>
+        <button ion-button block clear color="primary" (click)="book()">book</button>
+      </p>
+      
+  </ion-card>
+  <ion-card class="cards">
+      <ion-slides class="imgs" pager>
+
+          <ion-slide>
+             <img  src="assets/imgs/doubleGuest.jpg">
+          </ion-slide>
+        
+          <ion-slide>
+             <img  src="assets/imgs/fireplace.jpg">
+          </ion-slide>
+        
+          <ion-slide>
+             <img  src="assets/imgs/singleBath.jpg">
+          </ion-slide>
+        
+        </ion-slides>
+     
+      <h2>2 single Beds</h2>
+      <h3>R1850</h3>
+      <p>Single room that comes with 2 single beds for 2 or 3 guests sharing a neat finish bathroom,comes with a fireplace. All our rooms come with DSTV and wi-fi.<br>
+        <ion-icon style="zoom:1.0;width:15%;"class="icons" ios="ios-game-controller-a" md="md-game-controller-a"></ion-icon>
+        <ion-icon style="zoom:1.0;width:15%;" class="icons" ios="ios-wifi" md="md-wifi"></ion-icon>
+        <ion-icon style="zoom:1.0;width:15%;" ios="ios-desktop" md="md-desktop"></ion-icon>
+        <ion-icon style="zoom:1.0;width:15%;" ios="ios-restaurant" md="md-restaurant"></ion-icon><br>
+        <button ion-button block clear color="primary" (click)="book()">book</button>
+      </p>
+      
+  </ion-card>
+  <ion-card class="cards">
+    <ion-slides class="imgs" pager>
+
+        <ion-slide>
+           <img  src="assets/imgs/doubleBed.jpg">
+        </ion-slide>
+      
+        <ion-slide>
+           <img style="width: 100%;" src="assets/imgs/doubleFire.jpg">
+        </ion-slide>
+      
+        <ion-slide>
+           <img style="width: 100%;" src="assets/imgs/double3bath.jpg">
+        </ion-slide>
+      
+      </ion-slides>
+   
+    <h2>1 bedroom - Double</h2>
+    <h3>R1100</h3>
+    <p>Single room that comes with a big comfotable double bed a neat finish bathroom,comes with a fireplace. All our rooms come with DSTV and wi-fi.<br>
+      <ion-icon style="zoom:1.0;width:15%;"class="icons" ios="ios-game-controller-a" md="md-game-controller-a"></ion-icon>
+      <ion-icon style="zoom:1.0;width:15%;" class="icons" ios="ios-wifi" md="md-wifi"></ion-icon>
+      <ion-icon style="zoom:1.0;width:15%;" ios="ios-desktop" md="md-desktop"></ion-icon>
+      <ion-icon style="zoom:1.0;width:15%;" ios="ios-restaurant" md="md-restaurant"></ion-icon><br>
+      <button ion-button block clear color="primary" (click)="book()">book</button>
+    </p>
+  </ion-card>
+  <ion-card class="cards">
+    <ion-slides class="imgs" pager>
+      <ion-slide>
+         <img  src="assets/imgs/2double2.jpg">
+      </ion-slide>
+    
+      <ion-slide>
+         <img style="width: 100%;" src="assets/imgs/2double1.jpg">
+      </ion-slide>
+    
+      <ion-slide>
+         <img style="width: 100%;" src="assets/imgs/double2bath.jpg">
+      </ion-slide>
+    
+    </ion-slides>
+ 
+  <h2>2 Bedroom - Double </h2>
+  <h3>R2100</h3>
+  <p>2 bedroom that comes with a big comfotable double bed a neat finish bathroom,comes with a fireplace. All our rooms come with DSTV and wi-fi.<br>
+    <ion-icon style="zoom:1.0;width:15%;"class="icons" ios="ios-game-controller-a" md="md-game-controller-a"></ion-icon>
+    <ion-icon style="zoom:1.0;width:15%;" class="icons" ios="ios-wifi" md="md-wifi"></ion-icon>
+    <ion-icon style="zoom:1.0;width:15%;" ios="ios-desktop" md="md-desktop"></ion-icon>
+    <ion-icon style="zoom:1.0;width:15%;" ios="ios-restaurant" md="md-restaurant"></ion-icon><br>
+    <button ion-button block clear color="primary" (click)="book()">book</button>
+  </p>
+  
+  </ion-card>
+</ion-content>

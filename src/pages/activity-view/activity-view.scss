@@ -1,0 +1,44 @@
+page-activity-view {
+    ion-title{
+        text-align: center;
+    }
+
+    * {box-sizing:border-box}
+
+    .toolbar-background {
+        background: rgb(245, 240, 240);
+        border-color: transparent;
+      }
+    
+      .slide-zoom {
+        height: 100%;
+      }
+    
+      .slide-title {
+        margin-top: 1.3rem;
+        font-family: cursive;
+      }
+    
+      .slide-image {
+        height: 60%;
+        max-width: 100%;
+        // margin: 18px 0;
+      }
+    
+      b {
+        font-weight: 500;
+      }
+    
+      p {
+        // padding: 0 40px;
+        font-size: 1.2em;
+        line-height: 1.0;
+        color: black;
+        font-family: 'Ariel narrow';
+    
+        b {
+          color: #000000;
+        }
+      }
+
+}

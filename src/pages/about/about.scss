@@ -1,3 +1,64 @@
 page-about {
+    ion-content{
+        background: url("../../assets/imgs/aboutHotel3.jpg");
+        background-position: center;
+        text-align: center;
+        margin: 0; 
+        justify-content: center;
+        text-align: center;
+        color: aliceblue;
+  
+      }
+
+    ion-label{
+        font-size: 20px;
+        color: black;
+      }
+    ion-input{
+      color: black;
+      }
+    ion-item{
+      color: black;
+    }
+
+    ion-header{
+      text-align: center;
+    }
+
+    ion-footer{
+      padding: 0 0 0 0;
+      text-align:center;
+      box-shadow: 0 0 15px 5px rgb(225, 4, 4);
+      background: white;
+    }
+
+
+    .btns{
+      color: aliceblue
+    }
+
+    .cards{
+      background: transparent;
+      opacity: 0.96;
+      color: aliceblue;
+      font-size: 20px;
+      border-radius: 50px;
+    }
+
+    .h2{
+      color: blue;
+    }
+
+    .h3{
+      color: red;
+    }
+
+    ion-select{
+      color: black;
+    }
+
+    #shadow{
+      box-shadow: 0 0 15px 5px rgb(221, 225, 4);
+    }
 
 }

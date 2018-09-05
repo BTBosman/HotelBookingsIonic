@@ -1,3 +1,124 @@
 page-home {
 
+    .nav{
+        opacity: 0.9;
+        height: 8vh;
+        font-family: sans;
+    }
+
+    ion-content{
+      background: url("../../assets/imgs/aboutHotel3.jpg");
+      background-position: right;
+      text-align: center;
+      margin: 0; 
+
+    }
+
+    .img{
+      padding-top:10%;
+      color:white;
+    }
+
+    ion-col div {
+      width: 108%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: solid 0 0 15px 15px lightskyblue;
+        border-radius: 20px;
+        text-align: center;
+        margin-top: -2.5%;
+        margin-bottom: 0.5%; 
+        height:25vh;
+        text-align: center;
+        height: 23vh;
+        margin-left:-0.5%;
+        width: 100%;
+      }
+    
+      p {
+        padding: 10px 0 0 10px !important;
+        margin: 0;
+      }
+
+      #right{
+          float: right;
+      }
+
+      .about{
+          box-shadow: solid 0 0 10px skyblue;
+          padding-top: 35px; 
+          border-radius: 20px lightblue;
+          background: transparent;
+          
+      }
+
+      .resort{
+        padding-top: 35px;
+        background: transparent;
+        
+      }
+
+      .chalets{
+        padding-top: 35px;
+        background: transparent;
+      }
+
+      .activity{
+        padding-top: 35px;
+        background: transparent;
+                      
+
+      }
+
+      h2{
+        color: rgb(20, 128, 186);
+        font-style: italic;
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 3px #f0f5ff;
+        font-size: 1.5em;
+      }
+
+      .h2{
+        color: rgb(4, 100, 225);
+        font-style: italic;
+        font-family: 'Arial Narrow';
+        text-shadow: 3px #f0f5ff;
+        font-size: 1.5em;
+        
+      }
+
+      .h3{
+        color: #f0f5ff;
+        font-style: italic;
+        font-family: monospace;
+        text-shadow: 3px #f0f5ff;
+        font-size: 40px;
+      }
+
+      .h4{
+        color: rgb(209, 17, 177);
+        font-style: italic;
+        font-family: 'Arial Narrow';
+        text-shadow: 3px #f0f5ff;
+        font-size: 1.5em;
+      }
+
+      .col{
+        box-shadow: inset solid 0 0 10px black;
+      }
+
+      #shade1{
+        box-shadow: 0 0 15px 5px lightskyblue;
+      }
+
+      #shade2{
+        box-shadow: 0 0 15px 5px rgb(4, 100, 225);
+      }
+
+      #shade3{
+        box-shadow: 0 0 15px 5px rgb(187, 151, 6);
+      }
+
+      #shade4{
+       box-shadow: 0 0 15px 5px rgb(209, 17, 177);
+      }
 }

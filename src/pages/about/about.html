@@ -1,11 +1,83 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar style="opacity:0.9">
     <ion-title>
-      About
+      BOOKINGS
     </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="home()">
+          <ion-icon name="home"></ion-icon>
+        </button>
+      </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
 
+  <ion-card id="shadow" class="cards">
+    <ion-item>
+      <ion-label><u>Select Room</u></ion-label>
+      <ion-select color="danger" [(ngModel)]="roomType" required="">
+        <ion-option value="0">Family Suite</ion-option>
+        <ion-option value="1">SingleBed</ion-option>
+        <ion-option value="2">2 single Beds</ion-option>
+        <ion-option value="3">1 Bedroom - Double</ion-option>
+        <ion-option value="4">2 Bedroom - Double</ion-option>
+        <ion-option value="5">Campers Chalet </ion-option>
+        <ion-option value="6">Family Charlet</ion-option>
+        <ion-option value="7">Single Charlet</ion-option>       
+        </ion-select>
+    </ion-item>
+   
+    <ion-item>
+      <ion-label>Name</ion-label>
+      <ion-input type="text" [(ngModel)]="name"></ion-input>  
+    </ion-item>
+ 
+    <ion-item>
+      <ion-label>Email</ion-label>   
+      <ion-input type="text" [(ngModel)]="email"></ion-input>
+    </ion-item>
+    
+
+    <ion-item>
+      <ion-label>Check In:</ion-label>
+      <ion-input type="date" [(ngModel)]="checkIn"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Check Out:</ion-label>
+      <ion-input type="date" [(ngModel)]="checkOut"></ion-input>
+    </ion-item>
+     
+
+    <ion-item>
+      <ion-label >guests:</ion-label>
+      <ion-select [(ngModel)]="guests">
+        <ion-option value="no guests">0</ion-option>
+        <ion-option value="1 guest">1</ion-option>
+        <ion-option value="2 guests">2</ion-option>
+        <ion-option value="3 guests">3</ion-option>
+        <ion-option value="4 guests">4</ion-option>
+        <ion-option value="5 guests">5</ion-option>
+      </ion-select>
+      </ion-item>
+        
+    
+      <ion-item>
+      <ion-label >payment:</ion-label>
+      <ion-select [(ngModel)]="payment">
+        <ion-option value="cash">Cash</ion-option>
+        <ion-option value="Card">Card</ion-option>
+      </ion-select>
+      </ion-item>
+  </ion-card>
+
+  <button ion-button clear block color="light" round (click)="Book()">Make Booking</button>
+  <button ion-button clear block color="light" round (click)="ViewBook()">View Bookings</button>
+
 </ion-content>
+<ion-footer>
+  
+    <h3 class="h3">NOTICE!</h3>
+    <p>Please note that all bookings are final to make changes or Cancel reservation plase Email us at <a href="">EkasiHotelshotmail.com</a> or call us @ 087 890 1234</p>
+</ion-footer>

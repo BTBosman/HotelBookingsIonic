@@ -1,17 +1,44 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content class="bg" padding>
+  <img class="img" src="assets/imgs/apartment.png">
+  
 </ion-content>
+
+<ion-footer>
+    <ion-grid class="grid">
+      <ion-row>
+        <ion-col >
+          <div id="shade1" class="about" (click)=" presentModal(a)">
+            <img class="icon" src="assets/imgs/cabin2.png">
+              
+          </div>
+        </ion-col>
+        <ion-col>
+          <div id="shade2" class="resort" (click)="presentModal2(b)">
+              <img class="icon" src="assets/imgs/door3.png">
+           
+          </div>
+        </ion-col> 
+      </ion-row>
+      </ion-grid>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <div id="shade3" class="chalets" (click)="presentModal3(c)">
+                <img class="icon" src="assets/imgs/chaletback3.png">
+                
+            </div>
+          </ion-col>
+          <ion-col>
+            <div id="shade4" class="activity" (click)="presentModal4(d)">
+                <img class="icon" src="assets/imgs/joystick2.png">
+                
+            </div>
+          </ion-col>
+        </ion-row>
+        </ion-grid>
+ 
+</ion-footer>

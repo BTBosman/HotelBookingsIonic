@@ -1,0 +1,24 @@
+page-rooms-view {
+
+    ion-header{
+        justify-content: center;
+        text-align: center;
+        height:7vh;
+    }
+    ion-content{
+        justify-content: center;
+        text-align: center;
+    }
+    .imgs{
+        width: 100%;
+        margin-top: -8px;
+        height: 24.5vh;
+    }
+
+    .cards{
+        margin-top: 0;
+        height: 49vh;
+        box-shadow: 0 0 15px 7px rgb(72, 143, 197);
+    }
+
+}

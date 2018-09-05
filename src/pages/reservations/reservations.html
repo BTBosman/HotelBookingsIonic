@@ -1,0 +1,37 @@
+<!--
+  Generated template for the ReservationsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="light" style="opacity:0.89">
+    <ion-title>reservations</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card class="card" *ngFor="let x of arr; let i=index" >
+      <h1 class="h1"><span>{{x.type}}</span></h1>
+     
+        <h3 class="h1">This room was booked by:</h3>
+        <p class="p"><span>{{x.name}}</span></p>
+
+        <br>
+        <h3 class="h1">Check in:</h3>
+        <p class="p">They will be arriving on the {{x.checkIn}}</p>
+        <br>
+    
+        <h3 class="h1">Check out:</h3>
+        <p class="p">Departure will be on the {{x.checkOut}} at 12pm</p>
+        <br>
+          <h3 class="h1">Total</h3>
+          <h2><span>R{{x.payment}} </span></h2>
+        <br>
+        <h1>Thank you for choosing Ekasi Hotel!</h1>
+
+  </ion-card>
+</ion-content>
